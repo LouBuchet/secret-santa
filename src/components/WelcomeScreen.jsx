@@ -18,7 +18,7 @@ export function WelcomeScreen({ onStart }) {
         </button>
       </div>
     </div>
-  );
+   );
 }
 
 
