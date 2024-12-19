@@ -51,7 +51,8 @@ export default function App() {
   };
 
   return (
-    <div className="container mx-auto p-4">
+    <div className="bg-[#71002D] p-0 m-0">
+    <div className="container mx-auto">
       <div>
         {/* // affiche l'écran en fonction de l'état de l'application // WELCOME */}
         {currentScreen === "welcome" && (
@@ -90,6 +91,7 @@ export default function App() {
           </>
         )}
       </div>
+    </div>
     </div>
   );
 }
